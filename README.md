@@ -13,8 +13,15 @@ pip3 install -r requirements.txt
 
 ## Usage
 ```
-python whois.py -i 8.8.8.8
-python whois.py --ip 8.8.8.8
+usage: threat_apis.py [-h] -i IOC [-t TYPE] [-s SOURCE]
+options:
+  -h, --help            show this help message and exit
+
+required arguments:
+  -i IOC, --ioc IOC     query a indicator.
+  -t TYPE, --type TYPE  indicator type (ip, domain, url)
+  -s SOURCE, --source SOURCE
+                        name of a given source/feed
 ```
 ## Demos
 
