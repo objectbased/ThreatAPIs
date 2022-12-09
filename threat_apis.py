@@ -47,9 +47,12 @@ def main():
             else:
                 if args.source:
                     if (args.source).strip() in item["source"]:
-                           print(item)
+                        print(item)
                     else:
                         print(item)
+                else:
+                    print(item)
+
            
 # Call function
 main()
