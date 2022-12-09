@@ -13,7 +13,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 ```
-usage: threat_apis.py [-h] -i IOC [-t TYPE] [-s SOURCE]
+usage: threatapis.py [-h] -i IOC [-t TYPE] [-s SOURCE]
 options:
   -h, --help            show this help message and exit
 
