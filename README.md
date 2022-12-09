@@ -18,10 +18,9 @@ options:
   -h, --help            show this help message and exit
 
 required arguments:
-  -i IOC, --ioc IOC     query a indicator.
-  -t TYPE, --type TYPE  indicator type (ip, domain, url)
-  -s SOURCE, --source SOURCE
-                        name of a given source/feed
+  -i IOC, --ioc IOC            # query a indicator. #
+  -t TYPE, --type TYPE         # indicator type (ip, domain, url) #
+  -s SOURCE, --source SOURCE   # name of a given source/feed #
 ```
 ## Demos
 
