@@ -52,8 +52,7 @@ def main():
                         print(item)
                 else:
                     print(item)
-
-           
+  
 # Call function
 main()
 
