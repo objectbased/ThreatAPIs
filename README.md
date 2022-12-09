@@ -24,12 +24,8 @@ required arguments:
 ```
 ## Demos
 
-![](help.gif)
-
-![](main.gif)
 
 # Troubleshooting
 - If you are receiving errors, please look at the Issues queue and see if there is already an issue open.
 
 - If you have a unique issue, please create a new Issue, and include the output of your terminal.
-
