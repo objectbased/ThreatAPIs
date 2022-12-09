@@ -89,14 +89,12 @@ feeds = { "sources":
             "url": "http://www.talosintelligence.com/documents/ip-blacklist",
             "type": ["ip"],
             "regex": "N/A"
+        },
+        {
+            "name": "PhishTank",
+            "url": "http://data.phishtank.com/data/online-valid.csv",
+            "type": ["url"],
+            "regex": "^.*?\,(.*?)\,"
         }
-        #{
-        #    "name": "SSC-Threat-Intel-IoCs",
-        #    "url": "https://github.com/securityscorecard/SSC-Threat-Intel-IoCs/blob/master/KillNet-DDoS-Blocklist/proxylist.txt",
-        #    "type": ["ip"],
-        #    "regex": "N/A"
-        
-        #new one - http://data.phishtank.com/data/online-valid.csv
-        #}
     ]
 }
