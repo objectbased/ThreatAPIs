@@ -3,7 +3,7 @@ This Python script makes HTTP requests to multiple open source threat intelligen
 
 # Requirements (Setup)
 
-- Python 3.6+
+- Python 3.9+
 - requests
 - argparse
 - re
